@@ -1,0 +1,27 @@
+body{
+.correct {
+    animation: correct-animation 1s ease-out forwards;
+  }
+
+  .wrong {
+    animation: wrong-animation 1s ease-out forwards;
+  }
+
+  @keyframes correct-animation {
+    0% { background-color: transparent; }
+    100% { background-color: #4caf50; color: white; }
+  }
+
+  @keyframes wrong-animation {
+    0% { background-color: transparent; }
+    100% { background-color: #f44336; color: white; }
+  }
+  .correct {
+    background-color: #4caf50 !important;
+    color: white !important;
+  }
+  .wrong {
+    background-color: #f44336 !important;
+    color: white !important;
+  }
+}

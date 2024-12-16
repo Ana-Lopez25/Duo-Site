@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Idol Challenge</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .video-container:hover {
+      transform: scale(1.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .video-container:active {
+      transform: scale(0.9);
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+      transition: transform 0.1s ease-in-out;
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-purple-800 via-pink-700 to-black text-white font-sans">
+  <nav class="bg-black bg-opacity-70 fixed w-full z-10">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <a href="index.html" class="text-3xl font-serif text-pink-500">Idol Challenge</a>
+      <ul class="flex space-x-6">
+        <li><a href="about.html" class="hover:text-pink-400 font-serif">About</a></li>
+        <li><a href="quiz.html" class="hover:text-pink-400 font-serif">Quiz</a></li>
+        <li><a href="contact.html" class="hover:text-pink-400 font-serif">Contacts</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section id="about" class="py-16 bg-black">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-serif mb-6 text-pink-600">Dance with us!!</h2>
+      <body class="bg-gray-900 text-white p-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="flex justify-center">
+            <video class="video-container rounded-lg shadow-lg" width="300" controls>
+              <source src="nextoyou.mp4.mov" type="video/mp4">
+            </video>
+          </div>
+          <div class="flex justify-center">
+            <video class="video-container rounded-lg shadow-lg" width="300" controls>
+              <source src="chkchkboom.mp4.mov" type="video/mp4">
+            </video>
+          </div>
+          <div class="flex justify-center">
+            <video class="video-container rounded-lg shadow-lg" width="300" controls>
+              <source src="feels.mp4.mov" type="video/mp4">
+            </video>
+          </div>
+          <div class="flex justify-center">
+            <video class="video-container rounded-lg shadow-lg" width="300" controls>
+              <source src="nxde.mp4.mov" type="video/mp4">
+            </video>
+          </div>
+          <div class="flex justify-center">
+            <video class="video-container rounded-lg shadow-lg" width="300" controls>
+              <source src="fakelove.mp4.mov" type="video/mp4">
+            </video>
+          </div>
+          <div class="flex justify-center">
+            <video class="video-container rounded-lg shadow-lg" width="300" controls>
+              <source src="hot.mp4.mov" type="video/mp4">
+            </video>
+          </div>
+          <div class="flex justify-center">
+            <video class="video-container rounded-lg shadow-lg" width="300" controls>
+              <source src="touch.mp4.mov" type="video/mp4">
+            </video>
+          </div>
+          <div class="flex justify-center">
+            <video class="video-container rounded-lg shadow-lg" width="300" controls>
+              <source src="intotheworld.mp4.mov" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        </div>
+        </div>
+        </section>
+        </body>
+      </div>
+    </div>
+  </body>
+</section>
+  </html>
+  
